@@ -7,8 +7,23 @@
 :root {
   --clr: #fff;
   --bg-clr: #ffc0cb;
+  --Black:#000;
 }
 body {
   color: var(--clr);
   background: var(--bg-clr);
+}
+.heading{
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 22px;
+}
+.name_of_objects{
+    color:var(--Black);
+}
+
+#camera{
+    border: 2px dashed var(--Black);
+    width: 350px;
+    height: 300px;
 }
